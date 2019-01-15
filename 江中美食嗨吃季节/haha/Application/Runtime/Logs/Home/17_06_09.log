@@ -1,0 +1,45 @@
+[ 2017-06-09T15:40:37+08:00 ] ::1 /haha/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002340s ]
+NOTIC: [8] Undefined index: usInfo D:\wamp\www\haha\Application\Home\Controller\AuthController.class.php 第 16 行.
+ERR: 1046:Aucune base n'a été sélectionnée
+ [ SQL语句 ] : SHOW COLUMNS FROM `jsd_users`
+ERR: 1046:Aucune base n'a été sélectionnée
+ [ SQL语句 ] : SHOW COLUMNS FROM `jsd_users`
+
+[ 2017-06-09T15:41:25+08:00 ] ::1 /haha/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002569s ]
+NOTIC: [8] Undefined index: serverId D:\wamp\www\haha\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: Think\Controller:get_access_token方法不存在！
+
+[ 2017-06-09T15:42:06+08:00 ] ::1 /haha/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002838s ]
+
+[ 2017-06-09T15:42:42+08:00 ] ::1 /haha/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001767s ]
+
