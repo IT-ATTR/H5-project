@@ -81,7 +81,7 @@
         var QQ;//用户领奖QQ
         var prize;//用户的奖品
         var is_touch=false;//判定用户是否画图
-        var prizeTime=3;//初始化抽奖次数
+        var prizeTime;//初始化抽奖次数
         var appid,timestamp,nonceStr,signature,jsApiList;
         var openid="<?php echo $_COOKIE['openid']; ?>";
         var nickname="<?php echo $_COOKIE['nickname']; ?>";
