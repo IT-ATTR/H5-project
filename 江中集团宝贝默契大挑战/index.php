@@ -1,7 +1,7 @@
 <?php
     require_once "../jssdk1.php";
     if(!$_COOKIE['openid']){
-            header("location:../../../wx_login2.php?id=6&url=https://www.mrgcgz.com/h5/html/jzbb20180620/index.php");
+            header("location:../../../wx_login2.php?id=6&url=https://www.xxxx.com/h5/xxxx/index.php");
             die();
     }
  ?>
@@ -105,7 +105,7 @@ var _hmt = _hmt || [];
 
         $.ajaxSettings.async = false;
         //进行微信用户信息的首次入库，用于判断后来是否可以再次中奖
-        var url1= "https://www.mrgcgz.com/myAdmin/index.php/Admin/Project/userinfo";
+        var url1= "";
         $.get(url1,{"openid":openid,"nickname":nickname,"headimgurl":headimgurl,"projectName":projectName},function(){},"json");
 
                 wx.config({
@@ -132,9 +132,9 @@ var _hmt = _hmt || [];
                 var title = '亲子默契大考验，敢不敢来试试？';     //分享标题
                 var desc = '丰富好礼等着你哟～!';      //分享描述
                 var desc1 = '丰富好礼等着你哟～!';      //分享描述
-                var imgurl = 'https://www.mrgcgz.com/h5/html/jzbb20180620/icon.jpg';  //分享图片
-                var shareurl='https://www.mrgcgz.com/h5/html/jzbb20180620/index.php';   //分享链接
-                var link_url="https://www.mrgcgz.com/h5/html/jzbb20180620/index.php";          //分享完跳转链接
+                var imgurl = '';  //分享图片
+                var shareurl='';   //分享链接
+                var link_url="";          //分享完跳转链接
 
                 wx.onMenuShareTimeline({
 
@@ -636,7 +636,7 @@ var _hmt = _hmt || [];
         var zjnum;
         //抽奖方法开始
         function lotto(){
-            var url = "https://www.mrgcgz.com/myAdmin/index.php/admin/Api/getNum";
+            var url = "";
             $.get(url,{"openid":openid,"projectName":projectName},function(res){
                 //传中奖数值给前台
                      zjnum = res;
@@ -654,7 +654,7 @@ var _hmt = _hmt || [];
             var num;
 
             //进行用户填写的信息入库
-            var url = "https://www.mrgcgz.com/myAdmin/index.php/admin/Api/userAddress";
+            var url = "";
             $.get(url,{"openid":openid,"projectName":projectName,"name":name,"phone":phone,"address":address,"zjnum":zjnum},function(res){
                 if (res =="success") {
                     //表示入库成功
