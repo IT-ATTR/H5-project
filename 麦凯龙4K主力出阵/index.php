@@ -98,9 +98,9 @@
                 var title = '看！世界杯决赛的第三支队伍！';     //分享标题
                 var desc = '阵容强大，实力强劲！快来看看吧!';      //分享描述
                 var desc1 = '看！世界杯决赛的第三支队伍!';      //分享描述
-                var imgurl = 'https://www.mrgcgz.com/h5/html/mkl20180712/icon.jpg';  //分享图片
-                var shareurl='https://www.mrgcgz.com/h5/html/mkl20180712/index.php';   //分享链接
-                var link_url="https://www.mrgcgz.com/h5/html/mkl20180712/index.php";          //分享完跳转链接
+                var imgurl = '';  //分享图片
+                var shareurl='';   //分享链接
+                var link_url="";          //分享完跳转链接
   
                 wx.onMenuShareTimeline({
 
