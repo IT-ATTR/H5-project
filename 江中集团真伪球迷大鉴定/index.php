@@ -1,7 +1,7 @@
 <?php
     require_once "../jssdk1.php";
      if(!$_COOKIE['openid']){
-            header("location:../../../wx_login2.php?id=8&url=https://www.mrgcgz.com/h5/html/jzyy20180708/index.php");
+            header("location:../../../wx_login2.php?id=8&url=https://www.xxxx.com/h5/xxxx/index.php");
             die();
     }
 ?>
@@ -126,9 +126,9 @@
                 var title = '揭秘世界杯球迷背后的真实身份';     //分享标题
                 var desc = '揭秘'+nickname+'球迷背后的真实身份!';      //分享描述
                 var desc1 = '揭秘'+nickname+'球迷背后的真实身份!';     //分享描述
-                var imgurl = 'https://www.mrgcgz.com/h5/html/jzyy20180708/icon.jpg';  //分享图片
-                var shareurl='https://www.mrgcgz.com/h5/html/jzyy20180708/index.php';   //分享链接
-                var link_url="https://www.mrgcgz.com/h5/html/jzyy20180708/index.php";          //分享完跳转链接
+                var imgurl = '';  //分享图片
+                var shareurl='';   //分享链接
+                var link_url="";          //分享完跳转链接
 
                 wx.onMenuShareTimeline({
 
