@@ -1,0 +1,29 @@
+.btnscene{
+	position:absolute; 
+	z-index:-1; 
+	left:0px;  
+	top:0px;  
+	z-index:-1;  
+	width:100%!important;   
+	height:100%!important;   
+	width:expression(this.width > 150 ? "150px" : this.width)!important; 
+}
+.btnscene1{
+	border-radius:0;
+	margin: 0;
+	left: 32%; 
+	/*top: 21%;*/
+	top: 18%;
+	margin: 0;
+	position:absolute;
+}
+.btnscene2{
+	border-radius:0;
+	margin: 0;
+	left: 32%; 
+	/*top:56%;*/
+	top:59%;
+	margin: 0;
+	position:absolute;
+}
+
