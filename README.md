@@ -5,6 +5,64 @@
 ### 公司已上线的h5项目源码（切勿用作商业用途，发现必究）
 需要获取用户信息的H5需要自己配置自己的微信信息以及数据库信息
 
+### 项目扫码体验
+
+**1、康佳_人脸识别**
+
+<img src="./pro_images/kjmz.png" width = "400"/>
+
+**2、众泰_征战洞庭湖**
+
+<img src="./pro_images/zhongtai.png" width = "400"/>
+
+**3、云度_春节接你回家**
+
+<img src="./pro_images/yundu.png" width = "400"/>
+
+**4、康佳_百万签名征集**
+
+<img src="./pro_images/kjqm.png" width = "400"/>
+
+**5、江中_默契大挑战**
+
+<img src="./pro_images/jzmoqi.png" width = "400"/>
+
+**6、江中_餐桌陪孩子**
+
+<img src="./pro_images/jzbb.png" width = "400"/>
+
+**7、江中_真伪球迷大作战**
+
+<img src="./pro_images/jzball.png" width = "400"/>
+
+**8、顺丰优选_吃货生存技巧**
+
+<img src="./pro_images/sfyx.png" width = "400"/>
+
+**9、维他奶_维他奶课堂**
+
+<img src="./pro_images/vitamilk.png" width = "400"/>
+
+**10、美的_张亮带你寻找菜**
+
+<img src="./pro_images/zhangliang.png" width = "400"/>
+
+**11、麦凯龙_4K主力出阵**
+
+<img src="./pro_images/mkl.png" width = "400"/>
+
+**12、美的_穿越鲜时空**
+
+<img src="./pro_images/mdxian.png" width = "400"/>
+
+**13、美的_美的冰箱保鲜时代**
+
+<img src="./pro_images/mdbx.png" width = "400"/>
+
+**13、江中_江中美食嗨吃季**
+
+<img src="./pro_images/jzyy.png" width = "400"/>
+
 #### 因为涉及商业机密和企业安全，所有请求数据的信息接口已删除，请自己模拟接口数据
 
 ## H5开发详解
