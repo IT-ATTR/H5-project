@@ -82,12 +82,11 @@ class WeChatSignature{
 	}
 
 
-	//http_curd
-	public function Curd($url,$data=null){
-		 //第1步:初始化虚拟浏览器
+	//http_curl
+	public function Curl($url,$data=null){
+	//第1步:初始化虚拟浏览器
         $ch = curl_init();
         //第2步:设置浏览器
-        curl_setopt($ch, CURLOPT_SAFE_UPLOAD, false);//启用安全上传模式
         curl_setopt($ch,CURLOPT_URL,$url);
         curl_setopt($ch,CURLOPT_RETURNTRANSFER,true );//以text/plain文本流返回
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);//没有ssl认证服务器
