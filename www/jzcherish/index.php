@@ -1,9 +1,9 @@
 <?php
-    require_once "../jssdk1.php";
-    if(!$_COOKIE['openid']){
-      //填写自己微信的回调地址
-            header("");
-            die();
+    require_once __DIR__ . '/../../wechat/jssdk.php';
+    $signPackage = ( new jssdk() )->getSignPackage();
+
+    if(!$_SESSION['openid']){
+        header("Location:http://hd.520web.cn/wechat/connect.php?goto_url=http://hd.520web.cn/jzcherish/");
     }
 ?>
 <!DOCTYPE html>

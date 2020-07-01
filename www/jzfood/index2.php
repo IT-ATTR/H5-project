@@ -1,10 +1,11 @@
 <?php
-    require_once "../jssdk1.php";
-    if(!$_COOKIE['openid']){
-            header("location:../../../wx_login2.php?id=8&url=https://www.mrgcgz.com/h5/html/jzyy20180823/index2.php");
-            die();
+    require_once __DIR__ . '/../../wechat/jssdk.php';
+    $signPackage = ( new jssdk() )->getSignPackage();
+
+    if(!$_SESSION['openid']){
+        header("Location:http://hd.520web.cn/wechat/connect.php?goto_url=http://hd.520web.cn/jzfood/");
     }
- ?>
+?>
 <!DOCTYPE html>
 <html style="height:100%;background-image: url(images/bg.jpg);">
 <head>

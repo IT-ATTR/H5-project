@@ -1,6 +1,8 @@
-<?php 
-    require_once "../jssdk1.php";
- ?>
+<?php
+    require_once __DIR__ . '/../../wechat/jssdk.php';
+    $signPackage = ( new jssdk() )->getSignPackage();
+
+?>
 <!DOCTYPE html>
 <html style="height:100%;background-image: url(images/bg.jpg);">
 <head>

@@ -8,9 +8,7 @@
  * Email: jiangliang@tanwan.com
  */
 
-defined('APPID') or define('APPID', '');
-defined('APPKEY') or define('APPKEY', '');
-
+require_once __DIR__ . '/config.php';
 require_once __DIR__ . '/../class/Helper.php';
 
 class jssdk

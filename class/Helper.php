@@ -183,3 +183,21 @@ if(!function_exists("check_data")) {
     }
 }
 
+if(!function_exists("redirect")) {
+    /**
+     * 重定向
+     * @param string $url
+     */
+    function redirect($url = '')
+    {
+        if (!headers_sent())
+        {
+            header("Location: ".$url);
+            exit();
+        } else {
+            $str = "<meta http-equiv='Refresh' content='0;URL={$url}'>";
+            exit($str);
+        }
+    }
+}
+

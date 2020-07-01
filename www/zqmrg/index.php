@@ -1,19 +1,16 @@
-<?php 
-    require_once __DIR__ . '/../wechat/jssdk.php';
-    $signPackage = (new jssdk())->getSignPackage();
- ?>
+
 <!DOCTYPE html>
-<html style="height:100%;background-image: url(images/bg.jpg);">
+<html style="height:100%;background-image: url(/assets/www/zqmrg/images/bg.jpg);">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 	<title>邀你回“嘉”</title>
-    <script type="text/javascript" charset="utf-8" src="edge_includes/edge.6.0.0.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/assets/www/zqmrg/edge_includes/edge.6.0.0.min.js"></script>
     <style>
         .edgeLoad-EDGE-38124248 { visibility:hidden; }
     </style>
 <script>
-   AdobeEdge.loadComposition('index', 'EDGE-38124248', {
+   AdobeEdge.loadComposition('/assets/www/zqmrg/js/index', 'EDGE-38124248', {
     scaleToFit: "none",
     centerStage: "none",
     minW: "0px",
@@ -63,11 +60,11 @@
 <body style="margin:0;padding:0;">
 	<div id="Stage" class="EDGE-38124248" style="position: absolute;">
 	</div>
-    <audio id="audio" src="./media/bgm.mp3" autoplay autoloop loop controls style="display: none;"></audio>
+    <audio id="audio" src="/assets/www/zqmrg/media/bgm.mp3" autoplay autoloop loop controls style="display: none;"></audio>
 </body>
 
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/h5.fit.common.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/js/h5.fit.common.js"></script>
 <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 <script type="text/javascript">
     function bf(){
